@@ -1,0 +1,125 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-description p {
+        padding: 0;
+    }
+    .work-experience-box .work-experience-box-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .education-training-box .education-training-box-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .personal-skills-box .personal-skills-box-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .certifications-box .certifications-box-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top-content .text .logo a {
+        background-image: url(../img/foto4@2x.png) !important;
+        background-repeat: no-repeat !important;
+        /*background-size: 160px 160px !important;*/
+        width: 160px !important;
+        height: 400px !important;
+        border-radius: 0% !important;
+    }
+    .navbar.navbar-no-bg {
+        background: #444;
+    }
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    .navbar-collapse {
+        border: 0;
+    }
+    .navbar-inverse ul.navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-inverse .navbar-toggle {
+        border-color: #444;
+    }
+    .inner-bg {
+        padding: 50px 0;
+    }
+    .top-content .top-big-link {
+        margin-top: 25px;
+    }
+    .top-content .top-big-link a.btn {
+        margin-top: 10px;
+    }
+    .section-description p {
+        padding: 0;
+    }
+    .work-experience-box {
+        text-align: center;
+    }
+    .work-experience-box h3 {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .education-training-box {
+        text-align: center;
+    }
+    .education-training-box h3 {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .personal-skills-box {
+        text-align: center;
+    }
+    .personal-skills-box h3 {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .certifications-box {
+        text-align: center;
+    }
+    .certifications-box h3 {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    footer {
+        text-align: center;
+    }
+    .footer-right {
+        padding-top: 30px;
+    }
+    .footer-social a {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+
+@media (max-width: 415px) {
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+}
+
+
+/* Retina-ize images/icons */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+    /* logo */
+}
