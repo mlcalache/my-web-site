@@ -26,7 +26,6 @@ jQuery(document).ready(function () {
     /*
         Background slideshow
     */
-    // $('.top-content').backstretch("assets/img/backgrounds/149891.jpg");
     $('.top-content').backstretch("assets/img/backgrounds/top-content.jpg");
     // $('.work-experience').backstretch("assets/img/backgrounds/1.jpg");
     $('.education-training').backstretch("assets/img/backgrounds/education-training.jpg");
